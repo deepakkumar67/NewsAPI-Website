@@ -1,0 +1,61 @@
+.background {
+  background: linear-gradient(to right, gray, dimgray, black);
+}
+
+.active {
+  border-bottom: 2px solid white;
+  background-color: gray !important;
+}
+
+.card-title {
+  font-size: 0.95rem;
+  min-height: 110px; /* bada kiya + min-height */
+  overflow: hidden; /* extra text cut ya wrap */
+}
+
+.source-date {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -20px;
+}
+
+.source-date p {
+  font-size: 0.7rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+  min-height: 260px; /* bada kiya + min-height */
+  overflow: hidden;
+}
+
+/* Responsive breakpoints */
+@media only screen and (max-width:575px) {
+  .card-title {
+    min-height: 60px;
+  }
+
+  .card-text {
+    min-height: 100px;
+  }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px) {
+  .card-title {
+    min-height: 80px;
+  }
+
+  .card-text {
+    min-height: 160px;
+  }
+}
+
+@media only screen and (min-width:768px) and (max-width:1199px) {
+  .card-title {
+    min-height: 110px;
+  }
+
+  .card-text {
+    min-height: 220px;
+  }
+}
