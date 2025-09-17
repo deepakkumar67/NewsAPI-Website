@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# NewsAPI-Website
+This is a responsive News Application built using ReactJS that fetches the latest news from the NewsAPI. Users can browse top headlines, search for news by category or keyword, and read detailed articles. The project demonstrates React components, state management, API integration, and dynamic rendering.
+>>>>>>> fc1d93f04ae0aa54a3459071fdb300b09d1e78ee
